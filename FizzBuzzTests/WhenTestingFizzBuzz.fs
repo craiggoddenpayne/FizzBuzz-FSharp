@@ -1,4 +1,4 @@
-﻿module FizzBuzzTests
+﻿module WhenTestingFizzBuzz
 
 open NUnit.Framework
 

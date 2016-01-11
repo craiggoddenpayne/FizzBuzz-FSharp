@@ -8,11 +8,11 @@
     <ProjectGuid>6e5dae26-e575-480a-9ddb-67f33fa677b1</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>FizzBuzz</RootNamespace>
-    <AssemblyName>FizzBuzz</AssemblyName>
+    <AssemblyName>FizzBuzzCore</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.4.0.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>FizzBuzz</Name>
+    <Name>FizzBuzzCore</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="FizzBuzz.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>

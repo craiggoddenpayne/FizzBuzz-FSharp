@@ -1,4 +1,4 @@
-﻿namespace FizzBuzz.AssemblyInfo
+﻿namespace FizzBuzzCore.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
