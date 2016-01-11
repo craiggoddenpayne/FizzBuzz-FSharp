@@ -16,3 +16,9 @@ let WhenCallingComputeWith6ItShouldReturnFizz() = Assert.That(FizzBuzz.Compute 6
 
 [<Test>]
 let WhenCallingComputeWith9ItShouldReturnFizz() = Assert.That(FizzBuzz.Compute 9, Is.EqualTo "Fizz")
+
+[<Test>]
+let WhenCallingComputeWith5ItShouldReturnBuzz() = Assert.That(FizzBuzz.Compute 5, Is.EqualTo "Buzz")
+
+[<Test>]
+let WhenCallingComputeWith10ItShouldReturnBuzz() = Assert.That(FizzBuzz.Compute 10, Is.EqualTo "Buzz")
