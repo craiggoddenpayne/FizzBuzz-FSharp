@@ -1,4 +1,4 @@
 ﻿module FizzBuzz
 
 let Compute value =
-    1
+    value
