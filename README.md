@@ -1,6 +1,4 @@
-# FizzBuzz Code Kata F#
-
-
+# FizzBuzz Code Kata F Sharp
 
 This is my attempt at the fizzbuzz kata, but this time in F#
 
@@ -12,7 +10,6 @@ http://codingdojo.org/cgi-bin/index.pl?KataFizzBuzz
 - I have used functional languages before (Scala) but only through tutorials, and never using TDD.
   
 - I'm going to check in after every change so that you can view the smallest unit of change when using red green refactor
-
 
 
 A quick summary of the FizzBuzz kata 
