@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
     <Content Include="packages.config" />
+    <Compile Include="FizzBuzzTests.fs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
