@@ -52,7 +52,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\FizzBuzz\FizzBuzzCore.fsproj">
+    <ProjectReference Include="..\FizzBuzz\FizzBuzzCore.fsproj">
       <Name>FizzBuzzCore</Name>
       <Project>{6e5dae26-e575-480a-9ddb-67f33fa677b1}</Project>
       <Private>True</Private>
